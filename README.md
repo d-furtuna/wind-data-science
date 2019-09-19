@@ -17,11 +17,11 @@ III. FILE DESCRIPTIONS
 
 Analyses were done in the Jupyter notebook entitled: 190919 Multi-year wind trends Schleswig.ipynb
 
-Input files are from the Integrated Global Radiosonde Archive (IGRA) Version 2 (https://www1.ncdc.noaa.gov/pub/data/igra/). This archive consists of quality-controlled radiosonde observations of temperature, humidity, and wind at stations across all continents. Record length and availability of variables varies among stations and over time. In addition monthly means at mandatory pressure levels is included as a supplementary product. The used files are in the “Input” folder: 
+Input files are from the Integrated Global Radiosonde Archive (IGRA) Version 2 (https://www1.ncdc.noaa.gov/pub/data/igra/). This archive consists of quality-controlled radiosonde observations of temperature, humidity, and wind at stations across all continents. Record length and availability of variables varies among stations and over time. In addition monthly means at mandatory pressure levels is included as a supplementary product. The used files will be stored and accessed from the “Input” folder: 
 
-- Metadata for all stations in the dataset: igra2-station-list.txt
+- Metadata for all stations in the dataset: igra2-station-list.txt (available in the Input folder)
 
-- Input files of monthly wind speed averages (for all the stations) along the "x" and "y" axes (East-West and North-South) taken twice a day (at 00:00 and 12:00) at various pressure levels (i.e. heights): uwnd_00z-mly.txt, uwnd_12z-mly.txt, vwnd_00z-mly.txt, vwnd_12z-mly.txt
+- Input files of monthly wind speed averages (for all the stations) along the "x" and "y" axes (East-West and North-South) taken twice a day (at 00:00 and 12:00) at various pressure levels (i.e. heights): uwnd_00z-mly.txt, uwnd_12z-mly.txt, vwnd_00z-mly.txt, vwnd_12z-mly.txt (the notebook downloads the archives and un-zippes them to Input folder)
 
 -----------------------------------------------------------
 IV. RESULTS
