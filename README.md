@@ -15,6 +15,8 @@ Understanding wind trends is of importance to energy companies that have offshor
 -----------------------------------------------------------
 III. FILE DESCRIPTIONS
 
+The Blog Post is saved as a PDF file: Blog-post.pdf
+
 Analyses were done in the Jupyter notebook entitled: 190919 Multi-year wind trends Schleswig.ipynb
 
 Input files are from the Integrated Global Radiosonde Archive (IGRA) Version 2 (https://www1.ncdc.noaa.gov/pub/data/igra/). This archive consists of quality-controlled radiosonde observations of temperature, humidity, and wind at stations across all continents. Record length and availability of variables varies among stations and over time. In addition monthly means at mandatory pressure levels is included as a supplementary product. The used files will be stored and accessed from the “Input” folder: 
